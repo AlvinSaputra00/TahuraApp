@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="shadow_color">#33000000</color>
+
+    <!-- Warna untuk gradien biru ke ungu -->
+    <color name="gradient_start">#3F51B5</color> <!-- Biru -->
+    <color name="gradient_end">#9C27B0</color>   <!-- Ungu -->
+
+    <!-- Warna untuk gradien abu-abu ke hitam -->
+    <color name="gray_start">#616161</color>     <!-- Abu-abu -->
+    <color name="gray_end">#000000</color>       <!-- Hitam -->
+
+    <color name="color_light_blue">#E3F2FD</color> <!-- Biru muda -->
+    <color name="color_yellow">#FFEB3B</color> <!-- Kuning terang -->
+
+    <color name="card_background">#FFFFFF</color> <!-- Putih -->
+    <color name="primary_text_color">#333333</color> <!-- Abu-abu gelap -->
+
+    <color name="light_blue">#E3F2FD</color>
+    <color name="light_green">#E8F5E9</color>
+    <color name="light_yellow">#FFF9C4</color>
+    <color name="light_pink">#FCE4EC</color>
+    <color name="Olive_Green">#6B8E23</color>
+    <color name="Dark_Gray">#4A4A4A</color>
+
+    <!-- Warna divider_color yang ditambahkan -->
+    <color name="divider_color">#BDBDBD</color>
+    <color name="primary">#3F51B5</color>
+</resources>

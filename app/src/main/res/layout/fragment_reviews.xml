@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <!-- Variabel jika diperlukan -->
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <!-- Deskripsi Gambar -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/tahura"
+            android:contentDescription="Gambar Taman Hutan Raya Ir. H. Djuanda" />
+
+        <!-- Deskripsi Teks -->
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/desctahura"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:background="@drawable/description_background"
+            android:elevation="4dp" />
+
+        <!-- Ikon Media Sosial -->
+        <LinearLayout
+            android:id="@+id/social_icons_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/description_text"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/facebook_icon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/facebook"
+                android:contentDescription="Facebook"
+                android:layout_marginEnd="8dp" />
+
+            <ImageView
+                android:id="@+id/youtube_icon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/youtube"
+                android:contentDescription="Youtube"
+                android:layout_marginEnd="8dp" />
+
+            <ImageView
+                android:id="@+id/instagram_icon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/instagram"
+                android:contentDescription="Instagram" />
+
+        </LinearLayout>
+
+        <!-- Judul Ulasan -->
+        <TextView
+            android:id="@+id/review_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ulasan Pengunjung"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_below="@id/social_icons_layout"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- RecyclerView Vertikal -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/review_title"
+            android:clipToPadding="false"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:scrollbars="vertical" />
+
+    </RelativeLayout>
+</layout>

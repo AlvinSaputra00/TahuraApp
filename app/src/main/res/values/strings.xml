@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tahura App</string>
+
+    <!-- Splash Activity -->
+    <string name="splash_screen">Selamat Datang di Tahura App</string>
+
+    <!-- Navigation Items -->
+    <string name="navigation_map">Peta</string>
+    <string name="navigation_facilities">Fasilitas</string>
+    <string name="navigation_reviews">Ulasan</string>
+
+    <!-- Map Fragment -->
+    <string name="map_title">Peta</string>
+    <string name="location_bandung_creative_hub">Bandung Creative Hub</string>
+    <string name="location_opening_hours">Jam Buka: 08.00 - 22.00</string>
+
+    <!-- Facilities Fragment -->
+    <string name="jalur_trekking_dan_hiking">Jalur Trekking dan Hiking</string>
+    <string name="goa_jepang_dan_goa_belanda">Goa Jepang dan Goa Belanda</string>
+    <string name="curug_omas">Curug Omas (Air Terjun)</string>
+    <string name="taman_bermain_anak">Taman Bermain Anak</string>
+    <string name="kebun_binatang_mini">Kebun Binatang Mini</string>
+    <string name="pusat_informasi_dan_edukasi">Pusat Informasi dan Edukasi</string>
+    <string name="area_piknik_dan_tempat_istirahat">Area Piknik dan Tempat Istirahat</string>
+    <string name="menara_pandang">Menara Pandang</string>
+    <string name="kafe_dan_warung_makan">Kafe dan Warung Makan</string>
+
+    <!-- Reviews Fragment -->
+    <string name="reviews_title">Ulasan</string>
+    <string name="review_rating">Penilaian</string>
+    <string name="user_image">Gambar Pengguna</string>
+    <string name="user_name">Nama Pengguna</string>
+    <string name="user_review">Ulasan Pengguna</string>
+    <string name="review_date">Tanggal Ulasan</string>
+
+    <!-- Descripsi Tahura -->
+    <string name="desctahura">Taman Hutan Raya Ir. H. Djuanda (Tahura Djuanda) merupakan kawasan konservasi yang indah dengan hutan Pinus (Pinus merkusii), terletak di sepanjang aliran Sungai Cikapundung dan DAS Citarum, dari Curug Dago hingga Curug Maribaya. Untuk memasuki taman ini, wisatawan lokal akan dikenai biaya tiket sebesar Rp. 17.000, sedangkan wisatawan asing harus membayar Rp. 57.000. Taman ini buka setiap hari dari jam 08.00 pagi hingga 16.00 sore</string>
+</resources>

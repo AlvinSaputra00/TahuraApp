@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Layer pertama: latar belakang putih dengan sudut membulat -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/> <!-- Putih -->
+            <corners android:radius="8dp"/>
+            <padding
+                android:left="8dp"
+                android:top="8dp"
+                android:right="8dp"
+                android:bottom="8dp"/>
+            <size
+                android:width="200dp"
+                android:height="100dp"/>
+        </shape>
+    </item>
+
+    <!-- Layer kedua: latar belakang abu-abu lebih gelap, dengan padding -->
+    <item
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/> <!-- Abu-abu lebih gelap -->
+            <corners android:radius="8dp"/>
+            <size
+                android:width="200dp"
+                android:height="100dp"/>
+        </shape>
+    </item>
+</layer-list>

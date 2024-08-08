@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mapFragment">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.alvinsaputra.bandungcreativeapp.ui.map.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_mapFragment_to_facilitiesFragment"
+            app:destination="@id/facilitiesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/facilitiesFragment"
+        android:name="com.alvinsaputra.bandungcreativeapp.ui.facilities.FacilitiesFragment"
+        android:label="Facilities"
+        tools:layout="@layout/fragment_facilities" >
+        <action
+            android:id="@+id/action_facilitiesFragment_to_reviewsFragment"
+            app:destination="@id/reviewsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reviewsFragment"
+        android:name="com.alvinsaputra.bandungcreativeapp.ui.reviews.ReviewsFragment"
+        android:label="Reviews"
+        tools:layout="@layout/fragment_reviews" />
+
+</navigation>
